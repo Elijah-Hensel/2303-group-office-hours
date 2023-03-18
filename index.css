@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: purple;
+  width: 100vw;
+  height: 100vh;
+}
+
+#nav-bar {
+  float: right;
+  width: 100vw;
+  height: 25px;
+  padding: 5px;
+  background-color: red;
+  text-align: right;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: lightblue;
+}
+
+#content-container {
+  margin: 0 auto;
+  background-color: plum;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+}
